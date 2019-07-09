@@ -22,3 +22,9 @@ Ruby英文文档：https://www.ruby-lang.org/en/documentation/
 RVM实用指南：https://ruby-china.org/wiki/rvm-guide
 
 启动，用IP访问：bin/rails server -b 111.111.111.111(IP)
+
+安装rubyinstaller
+
+安装sqlite3，从官网下载2个压缩包，解压（不知道是不是必须）
+
+`gem install sqlite3`
