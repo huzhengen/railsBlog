@@ -6,4 +6,5 @@
     <%= @article.text %>
 </p>
 
-<%= link_to 'Back', articles_path%>
+<p><%= link_to '修改', edit_article_path(@article) %></p>
+<p><%= link_to '返回文章列表', articles_path %></p>

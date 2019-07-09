@@ -4,6 +4,6 @@
 
 <ul>
     <% @articles.each do |article| %>
-        <li><%= article.title %> - <%= link_to '详细内容', article_path(article )%></li>
+        <li><%= article.title %> - <%= link_to '详细内容', article_path(article) %> - <%= link_to '修改', edit_article_path(article) %></li>
     <% end %>
 </ul>
