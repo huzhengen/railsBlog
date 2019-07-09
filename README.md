@@ -28,3 +28,5 @@ RVM实用指南：https://ruby-china.org/wiki/rvm-guide
 安装sqlite3，从官网下载2个压缩包，解压（不知道是不是必须）
 
 `gem install sqlite3`
+
+RubyGems 镜像：https://gems.ruby-china.com/
